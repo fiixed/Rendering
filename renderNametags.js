@@ -1,4 +1,4 @@
-
+/*jshint esversion: 6 */
 function renderNametags(nametags) {
     return `
         <div class="text-center mt-5">
