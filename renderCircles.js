@@ -2,10 +2,12 @@
 function renderCircles(circles) {
   // HINT: You probably need to write a for loop!
   //       Or, if you're feeling fancy, use .map()
-  return circles.map(
+  return `
+        <div class="text-center mt-5">
+  ${circles.map(
     (x) =>
       `<div style="border-radius:50%; background-color:${x.color}; width: ${x.radius}px; height: ${x.radius}px;"></div>`
-  );
+  )}</div>`;
 }
 
 function circles() {
