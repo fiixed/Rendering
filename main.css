@@ -1,1 +1,72 @@
 /* Type whatever CSS you need here! */
+.outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 700px;
+  height: 200px;
+  padding: 3% 0 0 3%;
+  margin: 1%;
+}
+
+.name-level {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.verified {
+  color: #3291eb;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+#profile {
+  max-width: 50px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+}
+
+#handle {
+  font-size: 0.7rem;
+  color: #556472;
+  margin-left: -5px;
+}
+
+.body {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-content: flex-start;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.footer > h6 {
+  margin-right: 20px;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: grey;
+  height: 1px;
+}
