@@ -6,6 +6,8 @@ function renderPokerHand(pokerHand) {
         <img src="cards/${x.value}${x.suit}.png" style="width:100px; height: auto;">
       `
   );
+
+ 
   return `
         <div class="text-center mt-5 row" style="display: flex;">
         <div class="col" style="flex: 20%; padding: 5px">

@@ -1,13 +1,11 @@
 /*jshint esversion: 6 */
 function renderCircles(circles) {
-  // HINT: You probably need to write a for loop!
-  //       Or, if you're feeling fancy, use .map()
-  return `
-        <div class="text-center mt-5" margin: 0 auto>
-  ${circles.map(
+  var cards = circles.map(
     (x) =>
-      `<div style="border-radius:50%; background-color:${x.color}; width: ${x.radius}px; height: ${x.radius}px;"></div>`
-  )}</div>`;
+      `<div style="border-radius:50%; background-color:${x.color}; width: ${x.radius}px; height: ${x.radius}px; margin: 0 auto;"></div>`
+  );
+  return `<div class="text-center mt-5">
+            ${cards.join("<br>")}</div>`;
 }
 
 function circles() {
